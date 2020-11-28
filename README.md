@@ -1,5 +1,13 @@
-Image viewer in Vim
-===================
+# Image viewer in Vim
 
-Like [image.vim](https://github.com/ashisha/image.vim), except much simpler.
-Depends on img2txt and [AnsiEsc.vim](https://github.com/vim-scripts/AnsiEsc.vim).
+Automatically displays image files (png, jpg, gif, bmp) when opened with Vim.
+
+## Dependencies
+- img2txt
+- [AnsiEsc.vim][1]
+
+## Related
+[image.vim][2]
+
+[1]: https://github.com/vim-scripts/AnsiEsc.vim
+[2]: https://github.com/ashisha/image.vim
