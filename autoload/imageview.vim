@@ -1,4 +1,6 @@
 function imageview#display()
+	setlocal nolist
+	setlocal nowrap
 	setlocal nonumber
 	silent execute '%!img2txt "%"'
 	silent! execute '%s/\r$//'
