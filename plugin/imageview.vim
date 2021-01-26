@@ -1,7 +1,7 @@
 if exists('g:loaded_imageview')
 	finish
 endif
-let g:loaded_imageview = v:true
+let g:loaded_imageview = 1
 
 augroup IMAGEVIEW
 	autocmd!

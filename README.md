@@ -5,17 +5,22 @@ Automatically displays image files (png, jpg, gif, bmp) when opened with Vim.
 ```
 vim.png
 ```
+
 ![Vim logo][1]
+
 ```
 $ vim vim.png
 ```
+
 ![Vim logo in Vim][2]
 
 ## Dependencies
-- [img2txt][3]
-- [AnsiEsc.vim][4] (bundled)
+
+-   [img2txt][3]
+-   [AnsiEsc.vim][4] (bundled)
 
 ## Related
+
 [image.vim][5]
 
 [1]: /img/vim.png
