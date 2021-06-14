@@ -5,5 +5,5 @@ let g:loaded_imageview = 1
 
 augroup IMAGEVIEW
 	autocmd!
-	autocmd BufReadPost *.{png,jpg,jpeg,gif,bmp} call imageview#display()
+	autocmd BufReadPost *.{png,jpg,jpeg,gif,bmp,webp} call imageview#display()
 augroup END
